@@ -25,9 +25,15 @@ main{
   padding: 0 1em;
   color: steelblue;
   font-weight: bold;
+  border-bottom: 1px solid #ccc;
 }
 
 .acordeon p{
   padding: 1em;
   margin: 0;
+  display: none;
+}
+
+.acordeon p:target{
+  display: block;
 }
